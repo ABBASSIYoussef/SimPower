@@ -66,7 +66,7 @@ public class ShopButton extends JButton {
 	            		System.out.println("Producer n°"+map.currentProducerCount);
 	            	}else if(building instanceof Consumer){
 	            		if(building instanceof Block) {
-	                		map.objHouse[map.currentProducerCount]=new Block();
+	                		map.objHouse[map.currentHouseCount]=new Block();
 	            		}else if(building instanceof FutureSkyscraper) {
 	                		map.objHouse[map.currentHouseCount]=new FutureSkyscraper();
 	            		}else if(building instanceof House) {
